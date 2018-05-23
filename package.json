@@ -1,9 +1,14 @@
 {
   "name": "atom-ice-ui",
   "theme": "ui",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Cool cyan glow UI theme for Atom editor",
-  "keywords": ["ui", "theme", "ice", "dark"],
+  "keywords": [
+    "ui",
+    "theme",
+    "ice",
+    "dark"
+  ],
   "repository": "https://github.com/dann254/atom-ice-ui",
   "license": "MIT",
   "engines": {
