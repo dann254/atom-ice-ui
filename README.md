@@ -36,22 +36,29 @@ To get here, Go to "Atom > Preferences" Select "Themes" and click the settings i
 
 Go to theme settings to choose added animations. The project text on the upper left corner of the editor is replaced by an animation.
 
-* #### heartbeat pulse
-  ![Image](screenshots/heartbeat.png?raw=true)
-* #### pulse circles
-  ![Image](screenshots/pulsecircles.png?raw=true)
+#### heartbeat pulse
+
+![Image](screenshots/heartbeat.png?raw=true)
+
+#### pulse circles
+
+![Image](screenshots/pulsecircles.png?raw=true)
 
 ### Custom tree view background
 
 Go to theme settings to choose added tree view backgrounds.
 
-* #### honeycomb small
-  ![Image](screenshots/honeycomb-small.png?raw=true)
-* #### honeycomb
-  ![Image](screenshots/honeycomb.png?raw=true)
-* #### brick
+#### honeycomb small
 
-  ![Image](screenshots/brick.png?raw=true)
+![Image](screenshots/honeycomb-small.png?raw=true)
+
+#### honeycomb
+
+![Image](screenshots/honeycomb.png?raw=true)
+
+#### brick
+
+![Image](screenshots/brick.png?raw=true)
 
 ---
 
