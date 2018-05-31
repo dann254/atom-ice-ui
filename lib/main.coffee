@@ -15,10 +15,24 @@ module.exports =
 renameProject = (editorTitle) ->
   if editorTitle == "Heartbeat"
     $('.tab.active[data-type="TreeView"] > .title').html """<div class="pulse"></div>"""
-  else if editorTitle == "PulseCircles"
+  else if editorTitle == "Pulse Circles"
     $('.tab.active[data-type="TreeView"] > .title').html """<div class="circle one"></div>
               <div class="circle two"></div>
               <div class="circle three"></div>"""
+  else if editorTitle == "Gooey Blobs *"
+    $('.tab.active[data-type="TreeView"] > .title').html """<div class = "gooey-blob">
+	<div class = "blob-1"></div>
+	<div class = "blob-2"></div>
+</div>"""
+
+  else if editorTitle == "Dash Load"
+    $('.tab.active[data-type="TreeView"] > .title').html """<div class="dasher">
+  <div class="dash uno"></div>
+  <div class="dash dos"></div>
+  <div class="dash tres"></div>
+  <div class="dash cuatro"></div>
+</div>"""
+
   else if editorTitle == "Classic"
     $('.tab.active[data-type="TreeView"] > .title').text("Project")
 
