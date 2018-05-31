@@ -40,7 +40,16 @@
         "Classic",
         "Brick",
         "Honeycomb",
+<<<<<<< HEAD
         "Honeycomb-small"
+=======
+        "Honeycomb-small",
+        "Brick-weave",
+        "Checkers",
+        "Weave",
+        "Table-cloth",
+        "Blueprint"
+>>>>>>> More tree view backgrounds
       ],
       "order": 2
     }
