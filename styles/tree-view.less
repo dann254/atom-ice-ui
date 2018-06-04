@@ -23,4 +23,32 @@
       background: @tree-view-selected;
     }
   }
+
+  .directory.entry.list-nested-item.selected {
+    color: @text-color-selected;
+    &::before {
+      background: @tree-view-selected;
+    }
+  }
+  .project-root.list-nested-item {
+    margin-right: -10px;
+    .project-root-header {
+      border-top: 0.1px solid darken(@base-border-color, 25%);
+      border-bottom: 0.1px dotted darken(@base-border-color, 26%);
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      background: @base-background-color;
+      padding-left: 5px;
+      padding-right: 10px;
+      margin-left: -5px;
+      margin-right: 0;
+    }
+    &.selected {
+      .project-root-header {
+        color: @text-color-selected;
+        background: @tree-view-selected;
+      }
+    }
+  }
 }

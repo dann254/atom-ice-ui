@@ -38,11 +38,23 @@ Go to theme settings to choose added animations. The project text on the upper l
 
 #### heartbeat pulse
 
-![Image](screenshots/heartbeat.png?raw=true)
+![Image](screenshots/heartbeat.gif?raw=true)
 
 #### pulse circles
 
-![Image](screenshots/pulsecircles.png?raw=true)
+![Image](screenshots/pulse-circles.gif?raw=true)
+
+#### dash load
+
+![Image](screenshots/dash-load.gif?raw=true)
+
+#### gooey-blobs
+
+![Image](screenshots/gooey-blobs.gif?raw=true)
+
+#### classic
+
+![](./screenshots/project.png?raw=true)
 
 ### Custom tree view background
 
@@ -60,7 +72,37 @@ Go to theme settings to choose added tree view backgrounds.
 
 ![Image](screenshots/brick.png?raw=true)
 
+#### blueprint
+
+![Image](screenshots/blueprint.png?raw=true)
+
+#### brick weave
+
+![Image](screenshots/brick-weave.png?raw=true)
+
+#### checkers
+
+![Image](screenshots/checkers.png?raw=true)
+
+#### table cloth
+
+![Image](screenshots/table-cloth.png?raw=true)
+
+#### weave
+
+![Image](screenshots/weave.png?raw=true)
+
+#### classic
+
+![Image](screenshots/classic.png?raw=true)
+
 ---
+
+## Updates v0.4.0
+
+* More tree view backgrounds
+* more project pane animations
+* sticky project root headers
 
 ---
 
