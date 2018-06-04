@@ -62,15 +62,15 @@ Go to theme settings to choose added tree view backgrounds.
 
 #### honeycomb small
 
-![Image](screenshots/honeycomb-small.png?raw=true)
+![Image](screenshots/honeycomb-small1.png?raw=true)
 
 #### honeycomb
 
-![Image](screenshots/honeycomb.png?raw=true)
+![Image](screenshots/honeycomb1.png?raw=true)
 
 #### brick
 
-![Image](screenshots/brick.png?raw=true)
+![Image](screenshots/brick1.png?raw=true)
 
 #### blueprint
 
