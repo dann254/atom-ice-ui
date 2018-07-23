@@ -1,0 +1,27 @@
+// styles all scrollbars
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 5px;
+  height: 5px;
+
+  &-track {
+    background-color: transparent;
+  }
+
+  &-thumb {
+    background-color: darken(@text-color, 20%);
+    border-radius: 3px;
+    // box-shadow: 0 0 50px 5px cyan;
+
+    &:hover {
+    }
+
+    &:window-inactive {
+    }
+  }
+
+  &-corner {
+    background-color: @base-baground-color-op;
+  }
+}

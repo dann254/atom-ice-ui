@@ -23,13 +23,20 @@
       "title": "Editor Title",
       "description": "Have a custom animation to replace the Project title on the top left corner of atom.",
       "type": "string",
-      "default": "Heartbeat",
+      "default": "Home",
       "enum": [
         "Classic",
         "Heartbeat",
         "Pulse Circles",
         "Dash Load",
-        "Gooey Blobs *"
+        "Gooey Blobs *",
+        "Home",
+        "Octoface",
+        "Smiley",
+        "Terminal",
+        "Globe",
+        "GistSecret",
+        "Bug"
       ],
       "order": 2
     },

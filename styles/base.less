@@ -10,11 +10,21 @@ body {
   font-size: @font-size;
   color: @text-color;
   background-color: @app-background-color;
+  border: 1px solid @base-border-color;
+  border-radius: 2px;
 }
 
-atom-pane {
+atom-pane{
   border-right: 1px solid @base-border-color;
-  &:last-child {
+  // &:last-child {
+  //   border-right: none;
+  // }
+}
+.atom-dock-content-wrapper.left > .panes{
+  atom-pane{
     border-right: none;
   }
+}
+atom-workspace-axis.horizontal{
+  margin-right: -1px;
 }

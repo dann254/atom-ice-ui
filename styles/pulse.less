@@ -130,13 +130,14 @@
 // gooey loader
 
 .gooey-blob {
+  will-change: transform;
   width: 150px;
   height: 100px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, .5);
   filter: blur(10px) contrast(20);
 
   .blob-1,
@@ -184,6 +185,7 @@
 }
 
 .dasher {
+  transform: translate3d(0, 0, 0);
   position: absolute;
   top: 50%;
   left: 50%;

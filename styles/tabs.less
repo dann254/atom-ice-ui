@@ -13,16 +13,16 @@
     height: @tab-height;
     line-height: @tab-height;
     font-size: @font-size;
-    border-right: 1px solid darken(@base-border-color, 37%);
+    border-right: 1px solid darken(@base-border-color, 30%);
     background-color: @tab-background-color;
     border-bottom: 1px solid @base-border-color;
     border-left: transparent;
     &.active {
       color: @text-color-selected;
-      background-color: @tab-background-color-active;
+      background-color: darken(cyan, 49%);
       border-right: 1px solid @base-border-color;
       border-left: 1px solid @base-border-color;
-      border-bottom: 0;
+      border-bottom: 1px dotted @base-border-color;
       max-width: 200px;
     }
 
@@ -65,6 +65,7 @@
     }
     &:last-of-type {
       border-right: 1px solid @base-border-color;
+      margin-right: -1px;
     }
   }
 }
@@ -72,15 +73,17 @@
 .pane {
   .tab-bar > .tab.active[data-type="TreeView"] {
     max-width: none;
+    height: 29px;
     background-color: @base-background-color;
-    border-bottom: 1px solid;
+    border-bottom: 0;
     border-right: none;
     border-left: none;
+    border-top: none;
   }
   &.active {
     .tab-bar {
       .tab.active {
-        border-top: 1px solid @base-border-color;
+        border-bottom: 0;
       }
     }
   }

@@ -2,7 +2,7 @@
 
 This is a dark Atom UI theme with a cool glow of cyan and a black background.
 
-## ![Image](screenshots/sample.png?raw=true)
+## ![Image](screenshots/sampled.png?raw=true)
 
 ## Installation
 
@@ -34,7 +34,8 @@ To get here, Go to "Atom > Preferences" Select "Themes" and click the settings i
 
 ### animated project pane
 
-Go to theme settings to choose added animations. The project text on the upper left corner of the editor is replaced by an animation.
+Go to theme settings to choose added animations. The project text on the upper left corner of the editor is replaced by an animation. **Please note that the animations use a lot of cpu power.**
+You can also change the tab to a few selected octicons.
 
 #### heartbeat pulse
 

@@ -14,11 +14,12 @@
 @text-color-subtle: rgba(0, 255, 255, 0.5);
 @text-color-highlight: rgba(0, 255, 255, 0.94);
 @text-color-selected: rgba(0, 255, 255, 1);
+@text-color-white: white;
 
 @text-color-info: hsl(219, 79%, 66%);
 @text-color-success: #69f0ae;
 @text-color-warning: #ffab40;
-@text-color-error: #ff1744;
+@text-color-error: #ff2c6d;
 
 // Background colors
 @background-color-info: hsl(208, 100%, 50%);
@@ -26,15 +27,15 @@
 @background-color-warning: hsl(32, 60%, 50%);
 @background-color-error: hsl(0, 70%, 50%);
 
-@background-color-highlight: lighten(@base-background-color, 5%);
-@background-color-selected: lighten(@base-background-color, 10%);
+@background-color-highlight: rgba(0, 255, 255, .06);
+@background-color-selected: rgba(0, 255, 255, .3);
 @app-background-color: darken(@base-background-color, 5%);
 @app-active-background-color: @base-active-background-color;
 @input-highlight: rgba(0, 255, 255, 0.3);
 
 // Base colors
 @base-background-color: black; // #263238, rgb(0, 15, 20)
-@base-border-color: rgba(0, 255, 255, 0.9);
+@base-border-color: rgba(0, 255, 255, 0.5);
 @base-active-background-color: #263238;
 @base-baground-color-op: rgba(0, 0, 0, 0.88);
 
@@ -54,7 +55,7 @@
 @panel-heading-background-color: lighten(@base-background-color, 4%);
 @panel-heading-border-color: @base-border-color;
 
-@overlay-background-color: lighten(@base-background-color, 5%);
+@overlay-background-color: lighten(@base-background-color, 0%);
 @overlay-border-color: @base-border-color;
 
 @button-background-color: @base-active-background-color;

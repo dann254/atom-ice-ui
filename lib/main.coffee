@@ -21,17 +21,38 @@ renameProject = (editorTitle) ->
               <div class="circle three"></div>"""
   else if editorTitle == "Gooey Blobs *"
     $('.tab.active[data-type="TreeView"] > .title').html """<div class = "gooey-blob">
-	<div class = "blob-1"></div>
-	<div class = "blob-2"></div>
-</div>"""
+	  <div class = "blob-1"></div>
+	  <div class = "blob-2"></div>
+    </div>"""
 
   else if editorTitle == "Dash Load"
     $('.tab.active[data-type="TreeView"] > .title').html """<div class="dasher">
-  <div class="dash uno"></div>
-  <div class="dash dos"></div>
-  <div class="dash tres"></div>
-  <div class="dash cuatro"></div>
-</div>"""
+    <div class="dash uno"></div>
+    <div class="dash dos"></div>
+    <div class="dash tres"></div>
+    <div class="dash cuatro"></div>
+    </div>"""
+
+  else if editorTitle == "Home"
+    $('.tab.active[data-type="TreeView"] > .title').html """<span class="icon icon-home"></span>"""
+
+  else if editorTitle == "Octoface"
+    $('.tab.active[data-type="TreeView"] > .title').html """<span class="icon icon-octoface"></span>"""
+
+  else if editorTitle == "Smiley"
+    $('.tab.active[data-type="TreeView"] > .title').html """<span class="icon icon-smiley"></span>"""
+
+  else if editorTitle == "Terminal"
+    $('.tab.active[data-type="TreeView"] > .title').html """<span class="icon icon-terminal"></span>"""
+
+  else if editorTitle == "Globe"
+    $('.tab.active[data-type="TreeView"] > .title').html """<span class="icon icon-globe"></span>"""
+
+  else if editorTitle == "GistSecret"
+    $('.tab.active[data-type="TreeView"] > .title').html """<span class="icon icon-gist-secret"></span>"""
+
+  else if editorTitle == "Bug"
+    $('.tab.active[data-type="TreeView"] > .title').html """<span class="icon icon-bug"></span>"""
 
   else if editorTitle == "Classic"
     $('.tab.active[data-type="TreeView"] > .title').text("Project")
