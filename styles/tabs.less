@@ -13,25 +13,29 @@
     height: @tab-height;
     line-height: @tab-height;
     font-size: @font-size;
-    border-right: 1px solid darken(@base-border-color, 30%);
+    border-right: 1px solid darken(@base-border-color, 8%);
     background-color: @tab-background-color;
     border-bottom: 1px solid @base-border-color;
     border-left: transparent;
     &.active {
       color: @text-color-selected;
-      background-color: darken(cyan, 49%);
+      background-color: @tab-background-color-active;
       border-right: 1px solid @base-border-color;
       border-left: 1px solid @base-border-color;
-      border-bottom: 1px dotted @base-border-color;
+      border-bottom: 0;
       max-width: 200px;
     }
 
+    & .close-icon {
+      display:none;
+    }
     // Modified Icon (the circle) -------------------
     &.modified:not(:hover) .close-icon {
       top: 50%;
       right: @component-padding + 4px; // 4px -> half of icon size
       margin-top: -3px;
       border-color: @text-color;
+      display:unset;
     }
     &.modified:hover .close-icon {
       color: currentColor;
@@ -43,6 +47,11 @@
     }
     &.active .close-icon:hover {
       color: @text-color;
+    }
+    &:hover{
+      & .close-icon {
+        display:unset;
+      }
     }
 
     // Dragging -------------------
@@ -82,8 +91,10 @@
   }
   &.active {
     .tab-bar {
-      .tab.active {
+
+    .tab.active {
         border-bottom: 0;
+        border-top: 1px solid #306efe;
       }
     }
   }

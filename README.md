@@ -1,8 +1,9 @@
 # Atom iCe UI Theme
 
-This is a dark Atom UI theme with a cool glow of cyan and a black background.
+This is a dark Atom UI theme with a cool glow of cyan and a black background.<br>
+It was created on a mac so it might look crappy elsewhere.
 
-## ![Image](screenshots/sampled.png?raw=true)
+## ![Image](screenshots/sampled1.png?raw=true)
 
 ## Installation
 
@@ -18,7 +19,10 @@ Alternatively you can use the [Atom Package Manager](https://github.com/atom/apm
 ```bash
 apm install atom-ice-ui
 ```
-
+#### If you prefer the old look, install using apm
+```bash
+apm install atom-ice-ui@0.5.1
+```
 ---
 
 ## You may also need

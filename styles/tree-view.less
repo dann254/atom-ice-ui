@@ -25,25 +25,50 @@
   .tree-view-root {
     background-color: @base-baground-color-op;
   }
+  .list-item:hover {
+      background: rgba(0, 255, 255, 0.07);
+      border-top-left-radius: 15px;
+      border-bottom-left-radius: 15px;
+      &.project-roote-header{
+
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+
+      }
+  }
 
   .list-item.selected {
     color: @text-color-selected;
+    // &::before {
+    background: @tree-view-selected;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    // }
     &::before {
-      background: @tree-view-selected;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
     }
   }
 
   .directory.entry.list-nested-item.selected {
     color: @text-color-selected;
+
+    background: @tree-view-selected;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
     &::before {
-      background: @tree-view-selected;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
     }
+  }
+  .list-group .selected::before, .list-tree .selected::before {
+    background: none;
   }
   .project-root.list-nested-item {
     margin-right: -10px;
     .project-root-header {
       border-top: 1px solid @base-border-color;
-      border-bottom: 1px dotted darken(@base-border-color, 26%);
+      border-bottom: 1px dashed darken(@base-border-color, 0%);
       position: sticky;
       top: 0;
       z-index: 1;

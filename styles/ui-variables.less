@@ -15,6 +15,8 @@
 @text-color-highlight: rgba(0, 255, 255, 0.94);
 @text-color-selected: rgba(0, 255, 255, 1);
 @text-color-white: white;
+@dark-grey: #37474f;
+@nice-green: rgb(63,249,220)
 
 @text-color-info: hsl(219, 79%, 66%);
 @text-color-success: #69f0ae;
@@ -34,10 +36,11 @@
 @input-highlight: rgba(0, 255, 255, 0.3);
 
 // Base colors
-@base-background-color: black; // #263238, rgb(0, 15, 20)
-@base-border-color: rgba(0, 255, 255, 0.5);
-@base-active-background-color: #263238;
-@base-baground-color-op: rgba(0, 0, 0, 0.88);
+@base-background-color: #070c0f; // #263238, rgb(0, 15, 20)
+@base-border-color: #37474f;
+@base-body-border-color: rgba(0, 255, 255, 0.5);
+@base-active-background-color: lighten(#070c0f, 5%);
+@base-baground-color-op: rgba(7, 12, 15, .90);
 
 // Component colors
 @pane-item-background-color: @base-background-color;
@@ -66,7 +69,7 @@
 @tab-bar-background-color: @base-background-color;
 @tab-bar-border-color: @base-border-color;
 @tab-background-color: @tab-bar-background-color;
-@tab-background-color-active: darken(cyan, 47%);
+@tab-background-color-active: #0d1519;
 @tab-border-color: @base-border-color;
 
 @tree-view-background-color: @base-background-color;
@@ -90,13 +93,16 @@
 @pri-honey-color: rgba(0, 255, 255, 1);
 @dark-honey-color: rgba(240, 166, 17, 0);
 
+// checkers
+@checkers-light: rgba(0, 255, 255, .5);
+
 // Sizes
 @font-size: 12px;
 @input-font-size: 14px;
 
 @disclosure-arrow-size: 12px;
 
-@component-padding: 10px;
+@component-padding: 10px; 
 @component-icon-padding: 5px;
 @component-icon-size: 16px;
 @component-line-height: 25px;

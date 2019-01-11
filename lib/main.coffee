@@ -8,9 +8,22 @@ module.exports =
       renameProject(value)
     atom.config.observe "#{themeName}.treeViewBackground", (value) ->
       updateTreeView(value)
+    atom.config.observe "#{themeName}.scrollBars", (value) ->
+      updateScrollBars(value)
+    atom.config.onDidChange("#{themeName}.scrollBars", () -> popNotification())
 
   deactivate: ->
     unsetProjectName()
+
+popNotification = ()->
+  atom.notifications.addSuccess("Scrollbar setting changed, Reload atom for changes to take effect", {buttons: [{ClassName:"btn btn-success", onDidClick: reloadAtom, text: "Reload"}], dismissable: true})
+
+reloadAtom = () ->
+  atom.reload()
+
+updateScrollBars = (value) ->
+  if value == true
+    $('body').addClass('scrollbars')
 
 renameProject = (editorTitle) ->
   if editorTitle == "Heartbeat"

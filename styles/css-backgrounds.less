@@ -124,23 +124,23 @@
   background: linear-gradient(
       135deg,
       @base-background-color 22px,
-      @base-border-color 22px,
-      @base-border-color 24px,
+      @checkers-light 22px,
+      @checkers-light 24px,
       transparent 24px,
       transparent 67px,
-      @base-border-color 67px,
-      @base-border-color 69px,
+      @checkers-light 67px,
+      @checkers-light 69px,
       transparent 69px
     ),
     linear-gradient(
         225deg,
         @base-background-color 22px,
-        @base-border-color 22px,
-        @base-border-color 24px,
+        @checkers-light 22px,
+        @checkers-light 24px,
         transparent 24px,
         transparent 67px,
-        @base-border-color 67px,
-        @base-border-color 69px,
+        @checkers-light 67px,
+        @checkers-light 69px,
         transparent 69px
       )
       0 64px;
@@ -148,7 +148,7 @@
   background-size: 64px 128px;
 }
 .checkers {
-  background-color: @base-border-color;
+  background-color: @checkers-light;
   background-image: linear-gradient(
       45deg,
       black 25%,
@@ -212,5 +212,5 @@
   background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
 .bb-black {
-  background-color: black;
+  background-color: @base-background-color;
 }

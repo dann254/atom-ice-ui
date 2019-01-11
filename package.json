@@ -57,6 +57,12 @@
         "Blueprint"
       ],
       "order": 2
+    },
+    "scrollBars": {
+      "title": "Custom Scrollbars",
+      "description": "Choose custom whether to user custom scrollbars or not.",
+      "type": "boolean",
+      "default": false
     }
   }
 }
